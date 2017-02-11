@@ -33,8 +33,5 @@ namespace {
 
 
 int main() {
-    std::thread thread1(Download, "https://raw.githubusercontent.com/wincent/command-t/media/command-t.gif"s, "LICENSE"s);
-    std::thread thread2(Download, "http://i.imgur.com/kcM5x79.jpg"s, "two.jpg"s);
-    thread1.join();
-    thread2.join();
+    Download("http://i.imgur.com/kcM5x79.jpg"s, "two.jpg"s);
 }
