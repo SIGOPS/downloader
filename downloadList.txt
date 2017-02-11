@@ -1,0 +1,2 @@
+http://archive.ics.uci.edu/ml/machine-learning-databases/00370/amazon_book_reviews.rar
+http://archive.ics.uci.edu/ml/machine-learning-databases/poker/poker-hand-testing.data
